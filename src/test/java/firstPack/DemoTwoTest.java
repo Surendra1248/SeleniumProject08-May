@@ -12,6 +12,7 @@ public class DemoTwoTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.selenium.dev/");
 		System.out.println(driver.getTitle());
+		System.out.println("Pushkar has updated this code with this statement");
 		driver.quit();
 	}
 
