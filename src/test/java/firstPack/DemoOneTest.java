@@ -12,6 +12,7 @@ public class DemoOneTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in/");
 		System.out.println(driver.getTitle());
+		System.out.println("Arun has updated this code with this statement");
 		driver.quit();
 	}
 
